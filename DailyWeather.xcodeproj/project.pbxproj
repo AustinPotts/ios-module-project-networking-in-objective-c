@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45DAD3DF2429658500A646DE /* PEIWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD3DE2429658500A646DE /* PEIWeather.m */; };
+		45DAD3E2242965E700A646DE /* PEIForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD3E1242965E700A646DE /* PEIForecast.m */; };
+		45DAD3E52429664700A646DE /* PEIDailyWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD3E42429664700A646DE /* PEIDailyWeather.m */; };
+		45DAD3E8242966B700A646DE /* PEIHourlyWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD3E7242966B700A646DE /* PEIHourlyWeather.m */; };
 		BD69313723FD905200C0DF09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD69313623FD905200C0DF09 /* AppDelegate.m */; };
 		BD69313A23FD905200C0DF09 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD69313923FD905200C0DF09 /* SceneDelegate.m */; };
 		BD69314223FD905300C0DF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD69314123FD905300C0DF09 /* Assets.xcassets */; };
@@ -48,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45DAD3DD2429658500A646DE /* PEIWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIWeather.h; sourceTree = "<group>"; };
+		45DAD3DE2429658500A646DE /* PEIWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIWeather.m; sourceTree = "<group>"; };
+		45DAD3E0242965E700A646DE /* PEIForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIForecast.h; sourceTree = "<group>"; };
+		45DAD3E1242965E700A646DE /* PEIForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIForecast.m; sourceTree = "<group>"; };
+		45DAD3E32429664700A646DE /* PEIDailyWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIDailyWeather.h; sourceTree = "<group>"; };
+		45DAD3E42429664700A646DE /* PEIDailyWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIDailyWeather.m; sourceTree = "<group>"; };
+		45DAD3E6242966B700A646DE /* PEIHourlyWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIHourlyWeather.h; sourceTree = "<group>"; };
+		45DAD3E7242966B700A646DE /* PEIHourlyWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIHourlyWeather.m; sourceTree = "<group>"; };
 		BD69313223FD905200C0DF09 /* DailyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD69313523FD905200C0DF09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD69313623FD905200C0DF09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +111,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45DAD3DC2429655E00A646DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD3DD2429658500A646DE /* PEIWeather.h */,
+				45DAD3DE2429658500A646DE /* PEIWeather.m */,
+				45DAD3E0242965E700A646DE /* PEIForecast.h */,
+				45DAD3E1242965E700A646DE /* PEIForecast.m */,
+				45DAD3E32429664700A646DE /* PEIDailyWeather.h */,
+				45DAD3E42429664700A646DE /* PEIDailyWeather.m */,
+				45DAD3E6242966B700A646DE /* PEIHourlyWeather.h */,
+				45DAD3E7242966B700A646DE /* PEIHourlyWeather.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BD69312923FD905200C0DF09 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +147,7 @@
 		BD69313423FD905200C0DF09 /* DailyWeather */ = {
 			isa = PBXGroup;
 			children = (
+				45DAD3DC2429655E00A646DE /* Models */,
 				BD69313523FD905200C0DF09 /* AppDelegate.h */,
 				BD69313623FD905200C0DF09 /* AppDelegate.m */,
 				BD69313823FD905200C0DF09 /* SceneDelegate.h */,
@@ -305,10 +333,14 @@
 				BD69316E23FD912000C0DF09 /* LSISettingsTableVC.m in Sources */,
 				BD69316723FD90D100C0DF09 /* LSILog.m in Sources */,
 				BD69313723FD905200C0DF09 /* AppDelegate.m in Sources */,
+				45DAD3E8242966B700A646DE /* PEIHourlyWeather.m in Sources */,
+				45DAD3E52429664700A646DE /* PEIDailyWeather.m in Sources */,
 				BDFC8F7223FD999000A39B21 /* LSICardinalDirection.m in Sources */,
 				BD69316923FD90D100C0DF09 /* LSIErrors.m in Sources */,
 				BD69315E23FD907800C0DF09 /* LSIWeatherViewController.m in Sources */,
+				45DAD3DF2429658500A646DE /* PEIWeather.m in Sources */,
 				BD69317223FD918B00C0DF09 /* LSIWeatherIcons.m in Sources */,
+				45DAD3E2242965E700A646DE /* PEIForecast.m in Sources */,
 				BD69314823FD905300C0DF09 /* main.m in Sources */,
 				BD69313A23FD905200C0DF09 /* SceneDelegate.m in Sources */,
 			);
